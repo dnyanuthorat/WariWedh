@@ -1,11 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 function Home() {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h1>WariVedh Home Page</h1>
+      <h1>{t("home.title")}</h1>
 
-      <p>
-        This is the home page of WariVedh.
-      </p>
+      <p>{t("home.description")}</p>
+
+      <button>
+        {t("home.applyOrganizer")}
+      </button>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "Home",
+    "applyOrganizer": "Apply as Organizer",
+    "login": "Login"
+  },
+
+  "home": {
+    "title": "Welcome to WariVedh",
+    "description": "Smart crowd monitoring system for Wari.",
+    "applyOrganizer": "Apply as Organizer"
+  }
+}
